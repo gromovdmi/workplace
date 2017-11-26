@@ -21,4 +21,6 @@ DB user/pass: mygento
 
 docker exec -ti -u www-data m1-php /var/www/public/
 
+docker exec -ti m1-php /bin/bash
+
 stop/remove all Docker containers: docker rm $(docker ps -a -q)
